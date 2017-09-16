@@ -7,7 +7,7 @@ RUN yum -y update && yum -y install gcc gcc-c++ libxml2-devel libxslt-devel open
 
 # install Ruby and Bundler
 ENV RUBY_MAJOR_VERSION 2.4
-ENV RUBY_VERSION 2.4.1
+ENV RUBY_VERSION 2.4.2
 ENV CONFIGURE_OPTS --disable-install-doc
 RUN wget https://cache.ruby-lang.org/pub/ruby/$RUBY_MAJOR_VERSION/ruby-$RUBY_VERSION.tar.bz2
 RUN tar jxf ruby-$RUBY_VERSION.tar.bz2
