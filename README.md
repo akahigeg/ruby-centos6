@@ -4,7 +4,7 @@
 
 ### Note
 
-End of Lifetime (EOL) Dates
+CentOS6 End of Lifetime (EOL) Dates
 
 * Full Updates: May 10th, 2017
 * Maintenance Updates: November 30th, 2020
